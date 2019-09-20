@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/etphonesearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:ems="10"
+        android:hint="Enter Phone Number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etphonesearch"
+        android:layout_below="@+id/etphonesearch"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="28dp"
+        android:text="SEARCH" />
+
+    <TextView
+        android:id="@+id/tvsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnsearch"
+        android:layout_alignRight="@+id/etphonesearch"
+        android:layout_centerVertical="true"
+        android:text="TextView" />
+
+</RelativeLayout>
